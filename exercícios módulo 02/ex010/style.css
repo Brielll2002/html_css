@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{background-color:#24C8FF;
+font-family: Arial, Helvetica, sans-serif;}
+
+h1{color:#FA840A;}
+
+h1#principal{text-align: center;/*# para remeter ao id*/
+             background-color:#fa860a75;}
+
+h2{color: #AD5800;}
