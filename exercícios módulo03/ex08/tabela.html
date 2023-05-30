@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Anatomia das Tabelas</h1>
+<!--Anatomia das Tabelas
+
+    CAPTION
+    THEAD
+      TR, TD, TH
+    TBODY
+      TR, TD, TH
+    TFOOT
+      TR, TD, TH-->
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th><!--'scope="col" para dizer que é o título da tabela'-->
+                <th scope="col" style="width: 50px;">População</th><!--configuração pontual de estilo-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th><!--'scope="row" para dizer que é um título da linha'-->
+                <td><strong>84.352.783</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <footer>
+        Dados retirados do site do <a href="https://www.ibge.gov.br/" target="_blank">IBGE.</a>
+    </footer>
+</body>
+</html>
